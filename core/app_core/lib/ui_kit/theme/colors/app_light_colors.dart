@@ -51,4 +51,10 @@ class AppLightColors implements AppColors {
 
   @override
   Color get info => const Color(0xFF0288D1);
+
+  @override
+  Color get surfaceVariant => const Color(0xFFF2F2F2);
+
+  @override
+  Color get shadow => const Color(0x33000000);
 }

@@ -1,4 +1,21 @@
 {
   "@@locale": "en",
-  "settings": "Settings"
+  "games_________________________________________________": "games----------------------------------------------------------------------",
+  "games_availableGames": "Available Games",
+  "games_aliasDescription": "Guess words with your team",
+  "settings______________________________________________": "settings----------------------------------------------------------------------",
+  "settings": "Settings",
+  "settings_darkMode": "Dark Mode",
+  "settings_localeName": "English",
+  "settings_localeArmenian": "Հայերեն",
+  "settings_localeRussian": "Русский",
+  "settings_localeEnglish": "English",
+  "alias________________________________________________": "alias----------------------------------------------------------------------",
+  "alias_title": "Alias",
+  "alias_mode1": "Single Word",
+  "alias_mode2": "Card Mode",
+  "alias_selectMode": "Select Game Mode",
+  "alias_wordPack": "Word Pack",
+  "general________________________________________________": "general----------------------------------------------------------------------",
+  "general_startGame": "Start Game"
 }

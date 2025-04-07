@@ -1,29 +1,19 @@
+import 'package:app_core/extensions/context_extension.dart';
 import 'package:flutter/material.dart';
 
 enum AppLocales {
-  english,
-  russian,
-  armenian;
+  en,
+  ru,
+  am;
 
   Locale get locale {
     switch (this) {
-      case AppLocales.english:
+      case AppLocales.en:
         return const Locale('en');
-      case AppLocales.russian:
+      case AppLocales.ru:
         return const Locale('ru');
-      case AppLocales.armenian:
+      case AppLocales.am:
         return const Locale('am');
-    }
-  }
-
-  String get name {
-    switch (this) {
-      case AppLocales.english:
-        return 'English';
-      case AppLocales.russian:
-        return 'Russian';
-      case AppLocales.armenian:
-        return 'Armenian';
     }
   }
 
@@ -31,14 +21,25 @@ enum AppLocales {
     return AppLocales.values.map((locale) => locale.locale).toList();
   }
 
+  String name(BuildContext context) {
+    switch (this) {
+      case AppLocales.en:
+        return context.localizations.settings_localeEnglish;
+      case AppLocales.ru:
+        return context.localizations.settings_localeRussian;
+      case AppLocales.am:
+        return context.localizations.settings_localeArmenian;
+    }
+  }
+
   String get flagAssetPath {
     switch (this) {
-      case AppLocales.english:
-        return 'assets/icons/flags/usa.svg';
-      case AppLocales.russian:
-        return 'assets/icons/flags/russia.svg';
-      case AppLocales.armenian:
-        return 'assets/icons/flags/armenia.svg';
+      case AppLocales.en:
+        return 'assets/icons/flags/us.svg';
+      case AppLocales.ru:
+        return 'assets/icons/flags/ru.svg';
+      case AppLocales.am:
+        return 'assets/icons/flags/am.svg';
     }
   }
 }

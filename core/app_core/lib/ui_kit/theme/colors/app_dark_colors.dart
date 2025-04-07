@@ -49,4 +49,10 @@ class AppDarkColors implements AppColors {
 
   @override
   Color get info => const Color(0xFF4FC3F7);
+
+  @override
+  Color get surfaceVariant => const Color(0xFF2A2A2A);
+
+  @override
+  Color get shadow => const Color(0x66000000);
 }

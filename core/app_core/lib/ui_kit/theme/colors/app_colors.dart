@@ -13,6 +13,8 @@ abstract class AppColors {
 
   Color get onSurface;
 
+  Color get surfaceVariant;
+
   Color get secondary;
 
   Color get onSecondary;
@@ -32,4 +34,6 @@ abstract class AppColors {
   Color get warning;
 
   Color get info;
+
+  Color get shadow;
 }

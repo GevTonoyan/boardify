@@ -97,11 +97,113 @@ abstract class AppLocalizations {
     Locale('ru')
   ];
 
+  /// No description provided for @games_________________________________________________.
+  ///
+  /// In en, this message translates to:
+  /// **'games----------------------------------------------------------------------'**
+  String get games_________________________________________________;
+
+  /// No description provided for @games_availableGames.
+  ///
+  /// In en, this message translates to:
+  /// **'Available Games'**
+  String get games_availableGames;
+
+  /// No description provided for @games_aliasDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Guess words with your team'**
+  String get games_aliasDescription;
+
+  /// No description provided for @settings______________________________________________.
+  ///
+  /// In en, this message translates to:
+  /// **'settings----------------------------------------------------------------------'**
+  String get settings______________________________________________;
+
   /// No description provided for @settings.
   ///
   /// In en, this message translates to:
   /// **'Settings'**
   String get settings;
+
+  /// No description provided for @settings_darkMode.
+  ///
+  /// In en, this message translates to:
+  /// **'Dark Mode'**
+  String get settings_darkMode;
+
+  /// No description provided for @settings_localeName.
+  ///
+  /// In en, this message translates to:
+  /// **'English'**
+  String get settings_localeName;
+
+  /// No description provided for @settings_localeArmenian.
+  ///
+  /// In en, this message translates to:
+  /// **'Հայերեն'**
+  String get settings_localeArmenian;
+
+  /// No description provided for @settings_localeRussian.
+  ///
+  /// In en, this message translates to:
+  /// **'Русский'**
+  String get settings_localeRussian;
+
+  /// No description provided for @settings_localeEnglish.
+  ///
+  /// In en, this message translates to:
+  /// **'English'**
+  String get settings_localeEnglish;
+
+  /// No description provided for @alias________________________________________________.
+  ///
+  /// In en, this message translates to:
+  /// **'alias----------------------------------------------------------------------'**
+  String get alias________________________________________________;
+
+  /// No description provided for @alias_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Alias'**
+  String get alias_title;
+
+  /// No description provided for @alias_mode1.
+  ///
+  /// In en, this message translates to:
+  /// **'Single Word'**
+  String get alias_mode1;
+
+  /// No description provided for @alias_mode2.
+  ///
+  /// In en, this message translates to:
+  /// **'Card Mode'**
+  String get alias_mode2;
+
+  /// No description provided for @alias_selectMode.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Game Mode'**
+  String get alias_selectMode;
+
+  /// No description provided for @alias_wordPack.
+  ///
+  /// In en, this message translates to:
+  /// **'Word Pack'**
+  String get alias_wordPack;
+
+  /// No description provided for @general________________________________________________.
+  ///
+  /// In en, this message translates to:
+  /// **'general----------------------------------------------------------------------'**
+  String get general________________________________________________;
+
+  /// No description provided for @general_startGame.
+  ///
+  /// In en, this message translates to:
+  /// **'Start Game'**
+  String get general_startGame;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
