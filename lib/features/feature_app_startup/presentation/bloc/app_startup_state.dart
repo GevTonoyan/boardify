@@ -19,7 +19,12 @@ final class AppStartupLoaded extends AppStartupState {
 }
 
 class AppStartupData {
-  const AppStartupData({required this.isDarkMode});
+  const AppStartupData({required this.isDarkMode, required this.locale});
 
   final bool isDarkMode;
+  final AppLocales locale;
+
+  AppStartupData copyWith({bool? isDarkMode, AppLocales? locale}) {
+    return AppStartupData(isDarkMode: isDarkMode ?? this.isDarkMode, locale: locale ?? this.locale);
+  }
 }

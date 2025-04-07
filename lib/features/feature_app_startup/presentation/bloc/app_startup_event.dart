@@ -13,3 +13,9 @@ final class ChangeAppTheme extends AppStartupEvent {
 
   final bool isDarkMode;
 }
+
+final class ChangeAppLocale extends AppStartupEvent {
+  const ChangeAppLocale(this.locale);
+
+  final AppLocales locale;
+}
