@@ -1,17 +1,13 @@
 import 'package:flutter/material.dart';
 
-class AliasInfoScreen extends StatelessWidget {
-  const AliasInfoScreen({super.key});
+class AliasPreGameScreen extends StatelessWidget {
+  const AliasPreGameScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Alias Info'),
-      ),
-      body: Center(
-        child: Text('Alias information will be displayed here.'),
-      ),
+      appBar: AppBar(title: Text('Alias Pre Game')),
+      body: Center(child: Text('Alias Pre Game Screen')),
     );
   }
 }
