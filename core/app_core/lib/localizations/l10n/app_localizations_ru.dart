@@ -51,6 +51,9 @@ class AppLocalizationsRu extends AppLocalizations {
   String get alias_mode2 => 'Режим карты';
 
   @override
+  String get alias_singleWordMode => 'Режим одного слова';
+
+  @override
   String get alias_selectMode => 'Выберите режим игры';
 
   @override
@@ -94,6 +97,30 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get alias_cardModeRule6 => 'Счёт основан на количестве угаданных слов';
+
+  @override
+  String get alias_settings => 'Настройки Алиаса';
+
+  @override
+  String get alias_settings_general => 'Общие';
+
+  @override
+  String get alias_settings_gameDuration => 'Длительность игры (сек)';
+
+  @override
+  String get alias_settings_pointsToWin => 'Очки для победы';
+
+  @override
+  String get alias_settings_soundEffects => 'Звуковые эффекты';
+
+  @override
+  String get alias_settings_allowSkipping => 'Разрешить пропуск';
+
+  @override
+  String get alias_settings_penaltyForSkipping => 'Штраф за пропуск';
+
+  @override
+  String get alias_settings_wordsPerCard => 'Количество слов на карточке';
 
   @override
   String get general________________________________________________ => 'general----------------------------------------------------------------------';

@@ -181,6 +181,12 @@ abstract class AppLocalizations {
   /// **'Card Mode'**
   String get alias_mode2;
 
+  /// No description provided for @alias_singleWordMode.
+  ///
+  /// In en, this message translates to:
+  /// **'Single Word Mode'**
+  String get alias_singleWordMode;
+
   /// No description provided for @alias_selectMode.
   ///
   /// In en, this message translates to:
@@ -270,6 +276,54 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Score is based on the number guessed words'**
   String get alias_cardModeRule6;
+
+  /// No description provided for @alias_settings.
+  ///
+  /// In en, this message translates to:
+  /// **'Alias Settings'**
+  String get alias_settings;
+
+  /// No description provided for @alias_settings_general.
+  ///
+  /// In en, this message translates to:
+  /// **'General'**
+  String get alias_settings_general;
+
+  /// No description provided for @alias_settings_gameDuration.
+  ///
+  /// In en, this message translates to:
+  /// **'Game Duration (sec)'**
+  String get alias_settings_gameDuration;
+
+  /// No description provided for @alias_settings_pointsToWin.
+  ///
+  /// In en, this message translates to:
+  /// **'Points to Win'**
+  String get alias_settings_pointsToWin;
+
+  /// No description provided for @alias_settings_soundEffects.
+  ///
+  /// In en, this message translates to:
+  /// **'Sound Effects'**
+  String get alias_settings_soundEffects;
+
+  /// No description provided for @alias_settings_allowSkipping.
+  ///
+  /// In en, this message translates to:
+  /// **'Allow Skipping'**
+  String get alias_settings_allowSkipping;
+
+  /// No description provided for @alias_settings_penaltyForSkipping.
+  ///
+  /// In en, this message translates to:
+  /// **'Penalty for Skipping'**
+  String get alias_settings_penaltyForSkipping;
+
+  /// No description provided for @alias_settings_wordsPerCard.
+  ///
+  /// In en, this message translates to:
+  /// **'Words per Card'**
+  String get alias_settings_wordsPerCard;
 
   /// No description provided for @general________________________________________________.
   ///

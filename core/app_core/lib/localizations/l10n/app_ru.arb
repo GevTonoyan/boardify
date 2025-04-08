@@ -14,6 +14,7 @@
   "alias_title": "Алиас",
   "alias_mode1": "Одно слово",
   "alias_mode2": "Режим карты",
+  "alias_singleWordMode": "Режим одного слова",
   "alias_selectMode": "Выберите режим игры",
   "alias_wordPack": "Пакет слов",
   "alias_rulesTitle": "Правила Алиаса",
@@ -29,6 +30,14 @@
   "alias_cardModeRule4": "Пропускать нельзя — нужно угадать каждое слово на карточке",
   "alias_cardModeRule5": "Объясняющий не может использовать само слово, его часть, перевод, рифму или подсказки по написанию.",
   "alias_cardModeRule6": "Счёт основан на количестве угаданных слов",
+  "alias_settings": "Настройки Алиаса",
+  "alias_settings_general": "Общие",
+  "alias_settings_gameDuration": "Длительность игры (сек)",
+  "alias_settings_pointsToWin": "Очки для победы",
+  "alias_settings_soundEffects": "Звуковые эффекты",
+  "alias_settings_allowSkipping": "Разрешить пропуск",
+  "alias_settings_penaltyForSkipping": "Штраф за пропуск",
+  "alias_settings_wordsPerCard": "Количество слов на карточке",
   "general________________________________________________": "general----------------------------------------------------------------------",
   "general_startGame": "Начать игру"
 }

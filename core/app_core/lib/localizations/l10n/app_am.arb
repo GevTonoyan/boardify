@@ -14,6 +14,7 @@
   "alias_title": "Ալիաս",
   "alias_mode1": "Մի բառ",
   "alias_mode2": "Քարտի ռեժիմ",
+  "alias_singleWordMode": "Մի բառի ռեժիմ",
   "alias_selectMode": "Ընտրեք խաղի ռեժիմը",
   "alias_wordPack": "Բառերի փաթեթ",
   "alias_rulesTitle": "Ալիասի կանոնները",
@@ -29,6 +30,14 @@
   "alias_cardModeRule4": "Բաց թողնելը թույլ չի տրվում՝ դուք պետք է գուշակեք քարտի բոլոր բառերը",
   "alias_cardModeRule5": "Բացատրողը չի կարող օգտագործել բառը, դրա որևէ արմատ, թարգմանություն, հնչյունական կամ ուղղագրական հուշումներ",
   "alias_cardModeRule6": "Միավորները հաշվարկվում են գուշակված բառերի քանակով",
+  "alias_settings": "Ալիասի կարգավորումներ",
+  "alias_settings_general": "Ընդհանուր",
+  "alias_settings_gameDuration": "Խաղի տեւողությունը (վրկ)",
+  "alias_settings_pointsToWin": "Միավորներ հաղթելու համար",
+  "alias_settings_soundEffects": "Ձայնային էֆեկտներ",
+  "alias_settings_allowSkipping": "Թույլ տալ բաց թողնել",
+  "alias_settings_penaltyForSkipping": "Պատիժ բաց թողնելու համար",
+  "alias_settings_wordsPerCard": "Քարտի բառերի քանակը",
   "general________________________________________________": "general----------------------------------------------------------------------",
   "general_startGame": "Սկսել խաղը"
 }

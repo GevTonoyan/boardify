@@ -51,6 +51,9 @@ class AppLocalizationsAm extends AppLocalizations {
   String get alias_mode2 => 'Քարտի ռեժիմ';
 
   @override
+  String get alias_singleWordMode => 'Մի բառի ռեժիմ';
+
+  @override
   String get alias_selectMode => 'Ընտրեք խաղի ռեժիմը';
 
   @override
@@ -94,6 +97,30 @@ class AppLocalizationsAm extends AppLocalizations {
 
   @override
   String get alias_cardModeRule6 => 'Միավորները հաշվարկվում են գուշակված բառերի քանակով';
+
+  @override
+  String get alias_settings => 'Ալիասի կարգավորումներ';
+
+  @override
+  String get alias_settings_general => 'Ընդհանուր';
+
+  @override
+  String get alias_settings_gameDuration => 'Խաղի տեւողությունը (վրկ)';
+
+  @override
+  String get alias_settings_pointsToWin => 'Միավորներ հաղթելու համար';
+
+  @override
+  String get alias_settings_soundEffects => 'Ձայնային էֆեկտներ';
+
+  @override
+  String get alias_settings_allowSkipping => 'Թույլ տալ բաց թողնել';
+
+  @override
+  String get alias_settings_penaltyForSkipping => 'Պատիժ բաց թողնելու համար';
+
+  @override
+  String get alias_settings_wordsPerCard => 'Քարտի բառերի քանակը';
 
   @override
   String get general________________________________________________ => 'general----------------------------------------------------------------------';

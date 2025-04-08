@@ -51,6 +51,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get alias_mode2 => 'Card Mode';
 
   @override
+  String get alias_singleWordMode => 'Single Word Mode';
+
+  @override
   String get alias_selectMode => 'Select Game Mode';
 
   @override
@@ -94,6 +97,30 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get alias_cardModeRule6 => 'Score is based on the number guessed words';
+
+  @override
+  String get alias_settings => 'Alias Settings';
+
+  @override
+  String get alias_settings_general => 'General';
+
+  @override
+  String get alias_settings_gameDuration => 'Game Duration (sec)';
+
+  @override
+  String get alias_settings_pointsToWin => 'Points to Win';
+
+  @override
+  String get alias_settings_soundEffects => 'Sound Effects';
+
+  @override
+  String get alias_settings_allowSkipping => 'Allow Skipping';
+
+  @override
+  String get alias_settings_penaltyForSkipping => 'Penalty for Skipping';
+
+  @override
+  String get alias_settings_wordsPerCard => 'Words per Card';
 
   @override
   String get general________________________________________________ => 'general----------------------------------------------------------------------';
