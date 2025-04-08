@@ -57,6 +57,45 @@ class AppLocalizationsRu extends AppLocalizations {
   String get alias_wordPack => 'Пакет слов';
 
   @override
+  String get alias_rulesTitle => 'Правила Алиаса';
+
+  @override
+  String get alias_singleModeRule1 => 'Один игрок объясняет одно слово за раз.';
+
+  @override
+  String get alias_singleModeRule2 => 'Команда пытается угадать как можно больше слов, пока не истечёт время.';
+
+  @override
+  String get alias_singleModeRule3 => 'Объясняющий не может использовать само слово, его часть, перевод, рифму или подсказки по написанию.';
+
+  @override
+  String get alias_singleModeRule4 => 'Товарищи по команде ';
+
+  @override
+  String get alias_singleModeRule5 => 'Можете угадывать столько раз, сколько захотите';
+
+  @override
+  String get alias_singleModeRule6 => 'Когда слово угадано правильно, появляется новое слово';
+
+  @override
+  String get alias_cardModeRule1 => 'Объясняющий получает карточку с несколькими словами (обычно 5–7).';
+
+  @override
+  String get alias_cardModeRule2 => 'Все слова на карточке должны быть угаданы до истечения времени';
+
+  @override
+  String get alias_cardModeRule3 => 'Игроки могут угадывать слова в любом порядке.';
+
+  @override
+  String get alias_cardModeRule4 => 'Пропускать нельзя — нужно угадать каждое слово на карточке';
+
+  @override
+  String get alias_cardModeRule5 => 'Объясняющий не может использовать само слово, его часть, перевод, рифму или подсказки по написанию.';
+
+  @override
+  String get alias_cardModeRule6 => 'Счёт основан на количестве угаданных слов';
+
+  @override
   String get general________________________________________________ => 'general----------------------------------------------------------------------';
 
   @override

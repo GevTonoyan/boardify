@@ -193,6 +193,84 @@ abstract class AppLocalizations {
   /// **'Word Pack'**
   String get alias_wordPack;
 
+  /// No description provided for @alias_rulesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Alias Rules'**
+  String get alias_rulesTitle;
+
+  /// No description provided for @alias_singleModeRule1.
+  ///
+  /// In en, this message translates to:
+  /// **'One player explains a single word at a time.'**
+  String get alias_singleModeRule1;
+
+  /// No description provided for @alias_singleModeRule2.
+  ///
+  /// In en, this message translates to:
+  /// **'The team tries to guess as many words as possible before the timer runs out.'**
+  String get alias_singleModeRule2;
+
+  /// No description provided for @alias_singleModeRule3.
+  ///
+  /// In en, this message translates to:
+  /// **'The explainer cannot use the word itself, any part of it, a translation, a rhyme, or spelling hints.'**
+  String get alias_singleModeRule3;
+
+  /// No description provided for @alias_singleModeRule4.
+  ///
+  /// In en, this message translates to:
+  /// **'Teammates can guess as many times as they want.'**
+  String get alias_singleModeRule4;
+
+  /// No description provided for @alias_singleModeRule5.
+  ///
+  /// In en, this message translates to:
+  /// **'When guessed correctly, a new word appears.'**
+  String get alias_singleModeRule5;
+
+  /// No description provided for @alias_singleModeRule6.
+  ///
+  /// In en, this message translates to:
+  /// **'If the word is skipped, 1 point is deducted (can be changed in settings).'**
+  String get alias_singleModeRule6;
+
+  /// No description provided for @alias_cardModeRule1.
+  ///
+  /// In en, this message translates to:
+  /// **'The explainer receives a card with multiple words (usually 5–7).'**
+  String get alias_cardModeRule1;
+
+  /// No description provided for @alias_cardModeRule2.
+  ///
+  /// In en, this message translates to:
+  /// **'All words on the card must be guessed before the timer runs out.'**
+  String get alias_cardModeRule2;
+
+  /// No description provided for @alias_cardModeRule3.
+  ///
+  /// In en, this message translates to:
+  /// **'Players can guess the words in any order.'**
+  String get alias_cardModeRule3;
+
+  /// No description provided for @alias_cardModeRule4.
+  ///
+  /// In en, this message translates to:
+  /// **'Skipping is not allowed — you must guess every word on the card.'**
+  String get alias_cardModeRule4;
+
+  /// No description provided for @alias_cardModeRule5.
+  ///
+  /// In en, this message translates to:
+  /// **'The explainer cannot use the word itself, any part of it, a translation, a rhyme, or spelling hints.'**
+  String get alias_cardModeRule5;
+
+  /// No description provided for @alias_cardModeRule6.
+  ///
+  /// In en, this message translates to:
+  /// **'Score is based on the number guessed words'**
+  String get alias_cardModeRule6;
+
   /// No description provided for @general________________________________________________.
   ///
   /// In en, this message translates to:

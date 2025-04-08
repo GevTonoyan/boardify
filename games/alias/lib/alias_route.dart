@@ -1,6 +1,6 @@
-import 'package:alias/features/feature_info/presentation/ui/alias_info_screen.dart';
 import 'package:alias/features/feature_main_menu/presentation/ui/alias_main_menu_screen.dart';
 import 'package:alias/features/feature_pre_game/presentation/ui/alias_pre_game_screen.dart';
+import 'package:alias/features/feature_rules/presentation/ui/alias_rules_screen.dart';
 import 'package:alias/features/feature_settings/presentation/ui/alias_settings_screen.dart';
 import 'package:alias/features/feature_word_pack/presentation/ui/alias_info_screen.dart';
 import 'package:go_router/go_router.dart';
@@ -26,7 +26,7 @@ final aliasRouter = GoRoute(
     GoRoute(
       path: AliasRouteNames.info,
       name: AliasRouteNames.info,
-      builder: (context, state) => const AliasInfoScreen(),
+      builder: (context, state) => const AliasRulesScreen(),
     ),
     GoRoute(
       path: AliasRouteNames.wordPacks,
