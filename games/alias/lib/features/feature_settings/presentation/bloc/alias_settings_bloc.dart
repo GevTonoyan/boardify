@@ -41,18 +41,22 @@ class AliasSettingsBloc extends Bloc<AliasSettingsEvent, AliasSettingsLoaded> {
     final updatedSettings = state.aliasSettings.copyWith(gameDuration: event.gameDuration);
     emit(AliasSettingsLoaded(aliasSettings: updatedSettings));
 
-    updateAliasSettingUseCase(
-      UpdateAliasSettingParams(key: AliasConstants.gameDurationKey, value: event.gameDuration),
-    );
+    if (event.persist) {
+      updateAliasSettingUseCase(
+        UpdateAliasSettingParams(key: AliasConstants.gameDurationKey, value: event.gameDuration),
+      );
+    }
   }
 
   void _onChangePointsToWin(ChangePointsToWin event, Emitter<AliasSettingsLoaded> emit) {
     final updatedSettings = state.aliasSettings.copyWith(pointsToWin: event.pointsToWin);
     emit(AliasSettingsLoaded(aliasSettings: updatedSettings));
 
-    updateAliasSettingUseCase(
-      UpdateAliasSettingParams(key: AliasConstants.pointsToWinKey, value: event.pointsToWin),
-    );
+    if (event.persist) {
+      updateAliasSettingUseCase(
+        UpdateAliasSettingParams(key: AliasConstants.pointsToWinKey, value: event.pointsToWin),
+      );
+    }
   }
 
   void _changeSoundEffects(ChangeSoundEffects event, Emitter<AliasSettingsLoaded> emit) {
@@ -94,8 +98,10 @@ class AliasSettingsBloc extends Bloc<AliasSettingsEvent, AliasSettingsLoaded> {
     final updatedSettings = state.aliasSettings.copyWith(wordsPerCard: event.wordsPerCard);
     emit(AliasSettingsLoaded(aliasSettings: updatedSettings));
 
-    updateAliasSettingUseCase(
-      UpdateAliasSettingParams(key: AliasConstants.wordsPerCardKey, value: event.wordsPerCard),
-    );
+    if (event.persist) {
+      updateAliasSettingUseCase(
+        UpdateAliasSettingParams(key: AliasConstants.wordsPerCardKey, value: event.wordsPerCard),
+      );
+    }
   }
 }

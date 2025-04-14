@@ -1,3 +1,4 @@
+/// Base class for all events related to alias settings.
 sealed class AliasSettingsEvent {
   const AliasSettingsEvent();
 }
@@ -7,15 +8,23 @@ class GetAliasSettings extends AliasSettingsEvent {
 }
 
 class ChangeGameDuration extends AliasSettingsEvent {
+  /// The new game duration in seconds.
   final int gameDuration;
 
-  const ChangeGameDuration(this.gameDuration);
+  /// Determines if the new value should be saved in the Shared Preferences.
+  final bool persist;
+
+  const ChangeGameDuration({required this.gameDuration, this.persist = true});
 }
 
 class ChangePointsToWin extends AliasSettingsEvent {
+  /// The new points to win value.
   final int pointsToWin;
 
-  const ChangePointsToWin(this.pointsToWin);
+  /// Determines if the new value should be saved in the Shared Preferences.
+  final bool persist;
+
+  const ChangePointsToWin({required this.pointsToWin, this.persist = true});
 }
 
 class ChangeSoundEffects extends AliasSettingsEvent {
@@ -37,7 +46,11 @@ class ChangePenaltyForSkipping extends AliasSettingsEvent {
 }
 
 class ChangeWordsPerCard extends AliasSettingsEvent {
+  /// The new number of words per card.
   final int wordsPerCard;
 
-  const ChangeWordsPerCard(this.wordsPerCard);
+  /// Determines if the new value should be saved in the Shared Preferences.
+  final bool persist;
+
+  const ChangeWordsPerCard({required this.wordsPerCard, this.persist = true});
 }
