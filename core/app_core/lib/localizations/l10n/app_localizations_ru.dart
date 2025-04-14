@@ -123,6 +123,9 @@ class AppLocalizationsRu extends AppLocalizations {
   String get alias_settings_wordsPerCard => 'Количество слов на карточке';
 
   @override
+  String get alias_settings_reset => 'Сбросить настройки';
+
+  @override
   String get general________________________________________________ => 'general----------------------------------------------------------------------';
 
   @override

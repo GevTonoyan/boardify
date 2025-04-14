@@ -325,6 +325,12 @@ abstract class AppLocalizations {
   /// **'Words per Card'**
   String get alias_settings_wordsPerCard;
 
+  /// No description provided for @alias_settings_reset.
+  ///
+  /// In en, this message translates to:
+  /// **'Reset Settings'**
+  String get alias_settings_reset;
+
   /// No description provided for @general________________________________________________.
   ///
   /// In en, this message translates to:

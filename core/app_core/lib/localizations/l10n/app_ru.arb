@@ -38,6 +38,7 @@
   "alias_settings_allowSkipping": "Разрешить пропуск",
   "alias_settings_penaltyForSkipping": "Штраф за пропуск",
   "alias_settings_wordsPerCard": "Количество слов на карточке",
+  "alias_settings_reset": "Сбросить настройки",
   "general________________________________________________": "general----------------------------------------------------------------------",
   "general_startGame": "Начать игру"
 }

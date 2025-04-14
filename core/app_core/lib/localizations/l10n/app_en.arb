@@ -38,6 +38,7 @@
   "alias_settings_allowSkipping": "Allow Skipping",
   "alias_settings_penaltyForSkipping": "Penalty for Skipping",
   "alias_settings_wordsPerCard": "Words per Card",
+  "alias_settings_reset": "Reset Settings",
   "general________________________________________________": "general----------------------------------------------------------------------",
   "general_startGame": "Start Game"
 }

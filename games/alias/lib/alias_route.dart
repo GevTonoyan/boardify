@@ -1,9 +1,13 @@
 import 'package:alias/features/feature_main_menu/presentation/ui/alias_main_menu_screen.dart';
 import 'package:alias/features/feature_pre_game/presentation/ui/alias_pre_game_screen.dart';
 import 'package:alias/features/feature_rules/presentation/ui/alias_rules_screen.dart';
+import 'package:alias/features/feature_settings/presentation/bloc/alias_settings_bloc.dart';
 import 'package:alias/features/feature_settings/presentation/ui/alias_settings_screen.dart';
 import 'package:alias/features/feature_word_pack/presentation/ui/alias_info_screen.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
+
+import 'features/feature_settings/alias_settings_scope.dart';
 
 class AliasRouteNames {
   static const mainMenu = 'alias_main';
@@ -21,7 +25,15 @@ final aliasRouter = GoRoute(
     GoRoute(
       path: AliasRouteNames.aliasSettings,
       name: AliasRouteNames.aliasSettings,
-      builder: (context, state) => const AliasSettingsScreen(),
+      builder:
+          (context, state) => BlocProvider(
+            create:
+                (_) => AliasSettingsBloc(
+                  getAliasSettingsUseCase: sl(),
+                  updateAliasSettingUseCase: sl(),
+                ),
+            child: const AliasSettingsScreen(),
+          ),
     ),
     GoRoute(
       path: AliasRouteNames.info,

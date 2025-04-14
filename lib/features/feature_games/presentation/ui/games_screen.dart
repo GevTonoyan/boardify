@@ -1,5 +1,6 @@
 import 'package:alias/alias_route.dart';
 import 'package:alias/core/constants.dart';
+import 'package:alias/features/feature_settings/alias_settings_scope.dart';
 import 'package:app_core/extensions/context_extension.dart';
 import 'package:app_core/ui_kit/theme/app_theme_provider.dart';
 import 'package:app_core/ui_kit/widgets/game_card.dart';
@@ -46,8 +47,11 @@ class GamesScreen extends StatelessWidget {
                     description: context.localizations.games_aliasDescription,
                     heroTag: AliasConstants.heroTag,
                     imageAssetPath: AppConstants.aliasImagePath,
-                    onTap: () {
-                      context.goNamed(AliasRouteNames.mainMenu);
+                    onTap: () async {
+                      await injectAliasSettingsScope();
+                      if (context.mounted) {
+                        context.goNamed(AliasRouteNames.mainMenu);
+                      }
                     },
                   ),
                 ],

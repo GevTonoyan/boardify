@@ -123,6 +123,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get alias_settings_wordsPerCard => 'Words per Card';
 
   @override
+  String get alias_settings_reset => 'Reset Settings';
+
+  @override
   String get general________________________________________________ => 'general----------------------------------------------------------------------';
 
   @override

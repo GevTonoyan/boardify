@@ -123,6 +123,9 @@ class AppLocalizationsAm extends AppLocalizations {
   String get alias_settings_wordsPerCard => 'Քարտի բառերի քանակը';
 
   @override
+  String get alias_settings_reset => 'Վերականգնել կարգավորումները';
+
+  @override
   String get general________________________________________________ => 'general----------------------------------------------------------------------';
 
   @override
