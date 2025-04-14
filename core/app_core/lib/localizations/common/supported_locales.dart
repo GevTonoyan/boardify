@@ -35,7 +35,7 @@ enum AppLocales {
   String get flagAssetPath {
     switch (this) {
       case AppLocales.en:
-        return 'assets/icons/flags/us.svg';
+        return 'assets/icons/flags/uk.svg';
       case AppLocales.ru:
         return 'assets/icons/flags/ru.svg';
       case AppLocales.am:
