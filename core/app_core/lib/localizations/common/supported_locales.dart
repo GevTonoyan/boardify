@@ -17,6 +17,30 @@ enum AppLocales {
     }
   }
 
+  static AppLocales fromString(String? locale) {
+    switch (locale) {
+      case 'en':
+        return AppLocales.en;
+      case 'ru':
+        return AppLocales.ru;
+      case 'am':
+        return AppLocales.am;
+      default:
+        return AppLocales.en;
+    }
+  }
+
+  String jsonValue() {
+    switch (this) {
+      case AppLocales.en:
+        return 'en';
+      case AppLocales.ru:
+        return 'ru';
+      case AppLocales.am:
+        return 'am';
+    }
+  }
+
   static List<Locale> get supportedLocales {
     return AppLocales.values.map((locale) => locale.locale).toList();
   }

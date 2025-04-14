@@ -20,6 +20,7 @@ dependencies:
     path: games/alias
   get_it: ^8.0.3
   flutter_svg: ^2.0.17
+  shared_preferences: ^2.5.3
 
 dev_dependencies:
   flutter_test:
