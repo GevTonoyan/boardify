@@ -48,6 +48,7 @@ class GamesScreen extends StatelessWidget {
                     heroTag: AliasConstants.heroTag,
                     imageAssetPath: AppConstants.aliasImagePath,
                     onTap: () async {
+                      // TODO come up with precise way to inject all alias settings
                       await injectAliasSettingsScope();
                       if (context.mounted) {
                         context.goNamed(AliasRouteNames.mainMenu);
