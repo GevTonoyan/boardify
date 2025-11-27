@@ -1,0 +1,30 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "boardify-74b99",
+          "appId": "1:764873979521:android:f0fee92a08ebf3c22ebf80",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "boardify-74b99",
+          "appId": "1:764873979521:ios:ab69029dc79845122ebf80",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "boardify-74b99",
+          "configurations": {
+            "android": "1:764873979521:android:f0fee92a08ebf3c22ebf80",
+            "ios": "1:764873979521:ios:ab69029dc79845122ebf80"
+          }
+        }
+      }
+    }
+  }
+}
